@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.logo-row1 {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.logo-col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo-text {
+    color: #737373;
+}
+
+.green-button {
+    border: 0px solid black;
+    background-color: #638e40;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo-wrapper-row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-wrapper-row2 {
+    background-color: #e1e41b;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 7px;
+}
+
+.logo-wrapper-row3 {
+    background-color: #638e40;
+    padding: 5px;
+}
+
+.slider-wrapper {
+    background: url("https://www.tree-shop.co.uk/wp-content/uploads/2022/10/trees-in-sunset.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.logo-row2 {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.col1 {
+    display: flex;
+    align-items: center;
+}
+
+.col2 input,
+.tree-finder input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.logo-row3 ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2px;
+}
+
+.logo-row3 ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.logo-row3 ul li {
+    margin: 5px 10px;
+    padding: 4px;
+    border-bottom: 1px solid #638e40;
+}
+
+.logo-row3 ul li:hover {
+    border-bottom: 1px solid white;
+    transition: 1s all;
+}
+
+header {
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    color: #638e40;
+    background-color: #fff;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    width: 1200px;
+    color: #96bf1f;
+    border: 22px solid #eff7e9;
+    margin: 30px 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: #eff7e9;
+    box-shadow: inset 0 0 0 1px #cee4bc;
+}
+
+.tree-finder-wrapper {
+    background-image: url("https://www.tree-shop.co.uk/wp-content/uploads/2019/08/single-tree-in-field.jpg");
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 1200px;
+}
+
+.tree-finder {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tree-finder h1 {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.white-text-shadow {
+    text-shadow: 0px 0px 20px #000;
+}
+
+.tree-finder-wrapper .tree-finder .row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+
+.tree-finder .row2 .col1 h3,
+.tree-finder .row2 .col2 h3 {
+    align-self: start;
+}
+
+.tree-finder .row2 .col2,
+.tree-finder .row2 .col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 0 45%;
+    flex-wrap: wrap;
+}
+
+.tree-finder .row2 .col1 div ul,
+.tree-finder .row2 .col2 div ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tree-finder .row2 .col1 div ul li a,
+.tree-finder .row2 .col2 div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tree-finder .row2 .col1 div ul li,
+.tree-finder .row2 .col2 div ul li {
+    padding: 5px 10px;
+    border: 1px solid #ffffff3d;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 0px 20px #000;
+}
+
+.category {
+    margin: 20px 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.category h4 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.category-boxex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    flex: 1 0 20%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-size2 {
+    flex: 2 0 42%;
+}
+
+
+.box-tile {
+    align-self: flex-start;
+    margin: 8px;
+    text-align: center;
+    background-color: white;
+    padding: 4px;
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+
+.box-tile2 {
+    position: relative;
+    left: -130px;
+    top: -80px;
+    margin: 4px;
+    text-align: center;
+    background-color: white;
+    padding: 4px;
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+
+.box-description {
+    align-self: flex-end;
+    text-wrap: nowrap;
+    margin: 8px;
+    text-align: center;
+    background-color: white;
+    padding: 4px;
+    font-size: 0.8rem;
+}
+
+.box-description2 {
+    position: relative;
+    right: -130px;
+    bottom: -80px;
+    text-wrap: nowrap;
+    margin: 8px;
+    text-align: center;
+    background-color: white;
+    padding: 4px;
+    font-size: 0.8rem;
+}
+
+.newsletter {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.newsletter input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.newsletter div {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-subbmit {
+    display: flex;
+}
+
+.email-subbmit .email {
+    flex: 1 0 60%;
+}
+
+.email-subbmit .login-btn {
+    flex: 1 0 20%;
+}
+
+.login-btn {
+    background-color: #638e40;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: black;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #638e40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer-row {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row h2 {
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    text-wrap: nowrap;
+}
+
+.footer-row .footer-col1,
+.footer-row .footer-col2,
+.footer-row .footer-col3,
+.footer-row .footer-col4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-row ul {
+    list-style: none;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+
+.footer-row ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+.footer-col2 div{
+    display: flex;
+    gap: 30px;
+    text-wrap: nowrap;
+}
+.footer-row2{
+    background-color: #737373;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    padding: 10px;
+}
